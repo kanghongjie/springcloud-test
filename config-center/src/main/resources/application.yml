@@ -12,6 +12,11 @@ spring:
           uri: https://github.com/forezp/SpringcloudConfig/
           searchPaths: respo
       label: maste
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
 #spring.cloud.config.server.git.uri=https://github.com/forezp/SpringcloudConfig/
 #spring.cloud.config.server.git.searchPaths=respo
 #spring.cloud.config.label=master
