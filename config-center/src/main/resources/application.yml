@@ -1,0 +1,19 @@
+server:
+  application:
+    name: config-center
+  port: 8888
+spring:
+  application:
+    name: config-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/forezp/SpringcloudConfig/
+          searchPaths: respo
+      label: maste
+#spring.cloud.config.server.git.uri=https://github.com/forezp/SpringcloudConfig/
+#spring.cloud.config.server.git.searchPaths=respo
+#spring.cloud.config.label=master
+#spring.cloud.config.server.git.username=your username
+#spring.cloud.config.server.git.password=your password
