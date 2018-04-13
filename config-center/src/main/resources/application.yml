@@ -11,7 +11,7 @@ spring:
         git:
           uri: https://github.com/forezp/SpringcloudConfig/
           searchPaths: respo
-      label: maste
+      label: master
 
 eureka:
   client:
